@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Solder_Holes")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/Solder_Holes.pretty")(options "")(descr ""))
+)
