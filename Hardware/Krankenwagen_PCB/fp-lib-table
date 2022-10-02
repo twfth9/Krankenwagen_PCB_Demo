@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Solder_Holes")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/Solder_Holes.pretty")(options "")(descr ""))
   (lib (name "XT_Connectors")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/XT_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Combat_Robotics")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/Combat_Robotics.pretty")(options "")(descr ""))
 )
