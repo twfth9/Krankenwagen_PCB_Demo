@@ -52,6 +52,8 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 74.422 59.436)
+    (grid_origin 74.422 59.436)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -165,7 +167,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b96fe6ac-3535-4455-ab88-ed77f5e46d6e)
     )
-    (fp_text value "XT60-M" (at 3.6 5.4 90) (layer "F.Fab")
+    (fp_text value "XT60-F" (at 3.6 5.4 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f8381e9-3077-4453-a480-a01ad9c1a940)
     )
@@ -264,6 +266,11 @@
       (net 4 "Net-(H4-Pad2)") (pintype "input") (tstamp 4a4ec8d9-3d72-4952-83d4-808f65849a2b))
     (pad "3" thru_hole circle (at 0 16 270) (size 4.5 4.5) (drill 2.8) (layers *.Cu *.Mask)
       (net 5 "Net-(H4-Pad3)") (pintype "input") (tstamp cbd8faed-e1f8-4406-87c8-58b2c504a5d4))
+    (model "${KIPRJMOD}/LIBRARIES/Castle_Neu_1410_Motor.step"
+      (offset (xyz 33.02 -7.62 18.415))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_6.5mm_Pad" (layer "F.Cu")
