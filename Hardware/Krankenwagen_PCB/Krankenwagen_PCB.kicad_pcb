@@ -5,6 +5,16 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Krankenwagen ESC & Motor PCB")
+    (date "2022-10-02")
+    (rev "v0.0.1")
+    (company "Missouri S&T Combot Robotics Team - Thomas Francois")
+    (comment 1 "This reduces the points of failure by eliminating connectors that could come loose")
+    (comment 2 "Schematic of PCB that replaces wires and bullet connectors with solderable holes")
+    (comment 3 "The motors and their ESC's can be mounted directly to this board")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
